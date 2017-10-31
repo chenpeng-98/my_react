@@ -1,0 +1,36 @@
+{
+  "plugins": ["transform-react-jsx"],
+  "presets": ["env"],
+  "ignore": [
+    "node_modules/**/*.*"
+  ]
+}
+// {
+//   "presets": [
+//     ["env", {
+//       "targets": {
+//         "node": "6.10"
+//       }
+//     }]
+//   ]
+// }
+
+// {
+//   "presets": [
+//     ["env", {
+//       "targets": {
+//         "node": "current"
+//       }
+//     }]
+//   ]
+// }
+
+// {
+//   "presets": [
+//     ["env", {
+//       "targets": {
+//         "browsers": ["last 2 versions", "safari >= 7"]
+//       }
+//     }]
+//   ]
+// }
